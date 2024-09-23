@@ -17,3 +17,22 @@ assert fizbuzz(5) == "Buzz", "fizzbuzz 5 test"
 assert fizbuzz(6) == "Fizz", "fizzbuzz 6 test"
 assert fizbuzz(15) == "FizzBuzz", "fizzbuzz 15 test"
 
+# Question 1: Calculate the square of a number
+def square_number():
+    number = float(input("Enter a number to square: "))
+    return number ** 2
+
+# Question 2: Check if a word is a palindrome
+def is_palindrome():
+    word = input("Enter a word: ")
+    return word == word[::-1]
+
+# Question 3: Convert Celsius to Fahrenheit
+def celsius_to_fahrenheit():
+    celsius = float(input("Enter temperature in Celsius: "))
+    return (celsius * 9/5) + 32
+
+# Main program
+print("1. Square a number:", square_number())
+print("2. Check if a word is a palindrome:", is_palindrome())
+print("3. Convert Celsius to Fahrenheit:", celsius_to_fahrenheit())
