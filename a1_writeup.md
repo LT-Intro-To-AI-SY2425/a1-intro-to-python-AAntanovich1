@@ -23,4 +23,4 @@ I found that some similarties in the python and Java is the syntax is quite simi
 
 3. What are some things that you learned through this assignment?
 
-I learned 
+I learned that chatgpt is able to generate any programs with specific tasks that are given to it. I also learned that math operators used in python are extremley similar to java and that is what Im learning in a seperate class.
